@@ -1,0 +1,1 @@
+const app = new App() // instanciamos em outro arquivo pois por aqui ele pode ser usado de qualquer lugar basta fazer "app.oNomeDaFunçãoQueVoceQuiser"

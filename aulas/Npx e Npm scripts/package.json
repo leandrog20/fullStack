@@ -1,0 +1,21 @@
+{
+  "name": "npm_npx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx babel index.js -o tranpiled.js"
+  },
+  "keywords": [
+    "class",
+    "study"
+  ],
+  "author": "Leandro Gomes",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.24.8",
+    "moment": "^2.30.1"
+  }
+}

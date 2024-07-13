@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>Registrador de Casa</h3>
+    <form action="">
+        <div>
+            <label for="">Area:</label>
+            <input type="text" name="area" id="" onfocus="this.value=''">
+        </div>
+        <div>
+            <label for="">Número:</label>
+            <input type="text" name="number" id="" onfocus="this.value=''">
+        </div>
+        <div>
+            <label for="">Bairro:</label>
+            <input type="text" name="neighborhood" id="" onfocus="this.value=''">
+        </div>
+        <div>
+            <label for="">Cidade:</label>
+            <input type="text" name="city" id="" onfocus="this.value=''">
+        </div>
+        <button onclick="saveHouse()" type="button">Salvar</button>
+    </form>
+    <ul id="houseList"></ul>
+    <div class="modal">
+        <p>Nenhum dos campo devem estar vazios!</p>
+        <button type="button" onclick="fechar(this)">Ok!</button>
+    </div>
+</body>
+</html>
