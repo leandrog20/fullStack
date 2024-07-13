@@ -1,1 +1,1 @@
-alert("Bem vindo a Via Láctea")
+alert("Bem vindo a Via Láctea!")
