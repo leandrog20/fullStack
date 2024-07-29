@@ -18,7 +18,6 @@
     // partida não autorizada
 
 
-
 import Spaceship from "./spaceship"
 
 import spaceshipEnginer from "./spaceshipEnginer"
